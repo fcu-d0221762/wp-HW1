@@ -1,2 +1,1 @@
-# wp-HW1
-# web beginner
+web beginner
