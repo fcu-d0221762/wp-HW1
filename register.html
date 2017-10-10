@@ -3,8 +3,42 @@
 <head>
     <meta charset="utf-8" />
     <title></title>
+    <style type="text/css">
+        .auto-style1 {
+            width: 48px;
+        }
+    </style>
 </head>
 <body>
+    <form method="GET">
+        <h1>使用者註冊</h1>
+        賬號&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" name="usr" placeholder="請輸入您的賬號" /><br />
+        密碼&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" name="pass" /><br />
+        電子郵件<input type="text" name="email" placeholder="請輸入您的電子郵件" /><br />
+        生日&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" name="usr0" value="年/月/日" /><br />
+        性別&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" name="gender" value="male" />男
+        <input type="radio" name="gender" value="female" />女
+        <input type="radio" name="gender" value="gen_other" />其他<br />
+        喜好&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="checkbox" name="favorite" value="basketball" />打球
+        <input type="checkbox" name="favorite" value="games" />打電動
+        <input type="checkbox" name="favorite" value="shopping" />購物
+        <input type="checkbox" name="favorite" value="fav_other" />其他<br />
+        年級&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <select class="auto-style1">
+            <option value="freshman">大一</option>
+            <option value="sophomore">大二</option>
+            <option value="junior">大三</option>
+            <option value="senior">大四</option>
+        </select><br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="submit" name="submit" value="送出">
+        <input type="reset" value="重設">
+    </form>
 
 </body>
 </html>
